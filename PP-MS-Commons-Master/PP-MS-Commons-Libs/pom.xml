@@ -53,6 +53,31 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-DAO</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Controller</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<!-- https://stackoverflow.com/questions/25420745/how-to-set-spring-active-profiles-with-maven-profiles -->
