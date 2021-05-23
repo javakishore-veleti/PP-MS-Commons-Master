@@ -27,6 +27,9 @@ public class MSCommonGlobalConfig {
 		case MEDPOLICY:
 			msProfiles = new String[] { "medpolicy" };
 			break;
+		case MEMBERS:
+			msProfiles = new String[] { "members" };
+			break;
 		default:
 			break;
 		}

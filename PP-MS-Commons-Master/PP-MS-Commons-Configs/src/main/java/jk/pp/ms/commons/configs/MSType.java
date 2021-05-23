@@ -2,7 +2,8 @@ package jk.pp.ms.commons.configs;
 
 public enum MSType {
 
-	ENTITLEMENTS("entitlements"), ECLAIMS("eclaims"), PROVIDERS("providers"), MEDPOLICY("medpolicy");
+	ENTITLEMENTS("entitlements"), MEMBERS("members"), ECLAIMS("eclaims"), PROVIDERS("providers"),
+	MEDPOLICY("medpolicy");
 
 	private String value;
 
