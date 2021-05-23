@@ -14,7 +14,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>jk.provider.portal.platform.configs</groupId>
-			<artifactId>Provider-Portal-All-Configs</artifactId>
+			<artifactId>PP-All-Configs</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>jk.provider.portal.ms.commons</groupId>
