@@ -129,5 +129,23 @@
 				</property>
 			</activation>
 		</profile>
+		<profile>
+			<id>pp-platform-client-servers-spring-registry-erueka</id>
+			<dependencies>
+				<!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+				<dependency>
+					<groupId>jk.provider.portal.platform.servers</groupId>
+					<artifactId>PP-Platform-Client-Servers-Spring-Registry</artifactId>
+					<version>${project.version}</version>
+				</dependency>
+			</dependencies>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+				<property>
+					<name>spring.profiles.active</name>
+					<value>pp-platform-client-servers-spring-registry-erueka</value>
+				</property>
+			</activation>
+		</profile>
 	</profiles>
 </project>

@@ -8,7 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = { "jk.pp.engg.foundations.common" })
 public class MSCommonGlobalConfig {
 
-	public static final String[] COMMON_PROFILES = { "ms-common", "ms-db" };
+	public static final String[] COMMON_PROFILES = { "ms-common", "ms-db",
+			"platform-spring-service-registry.properties" };
 
 	public static String[] buildAMSStartupProfiles(MSType msType) {
 
