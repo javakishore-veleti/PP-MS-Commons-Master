@@ -57,7 +57,6 @@
 		<dependency>
 			<groupId>jk.provider.portal.engineering.foundations</groupId>
 			<artifactId>PP-Engg-Common-Domain</artifactId>
-			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>jk.provider.portal.engineering.foundations</groupId>
@@ -67,11 +66,15 @@
 		<dependency>
 			<groupId>jk.provider.portal.engineering.foundations</groupId>
 			<artifactId>PP-Engg-Common-Service</artifactId>
-			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>jk.provider.portal.engineering.foundations</groupId>
 			<artifactId>PP-Engg-Common-Controller</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.commons</groupId>
+			<artifactId>PP-MS-Commons-Services-Connect</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

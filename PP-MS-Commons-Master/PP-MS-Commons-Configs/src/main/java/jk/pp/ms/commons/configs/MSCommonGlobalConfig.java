@@ -5,11 +5,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = { "jk.pp.engg.foundations.common", "jk.pp.ms.commons.configs" })
+@ComponentScan(basePackages = { "jk.pp.engg.foundations.common", "jk.pp.ms.commons.configs",
+		"jk.pp.ms.commons.service.connect" })
 public class MSCommonGlobalConfig {
 
 	public static final String[] COMMON_PROFILES = { "ms-common", "ms-db",
-			"platform-spring-service-registry.properties" };
+			"platform-spring-service-registry.properties", "pp.ms.serviceconnect.circuitbreaker.enabled" };
 
 	public static String[] buildAMSStartupProfiles(MSType msType) {
 
