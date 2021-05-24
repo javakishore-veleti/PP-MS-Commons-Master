@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = { "jk.pp.engg.foundations.common", "jk.pp.ms.commons.configs",
-		"jk.pp.ms.commons.service.connect" })
+		"jk.pp.ms.commons.service.connect", "jk.pp.ta.pubsub" })
 public class MSCommonGlobalConfig {
 
 	public static final String[] COMMON_PROFILES = { "ms-common", "ms-db",
