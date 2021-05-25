@@ -164,5 +164,23 @@
 				</property>
 			</activation>
 		</profile>
+		<profile>
+			<id>pp.ta.pubsub.kafka.consumer.apache.enabled</id>
+			<dependencies>
+				<!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+				<dependency>
+					<groupId>jk.provider.portal.ms.commons</groupId>
+					<artifactId>PP-TA-Kafka-Consumer</artifactId>
+					<version>${project.version}</version>
+				</dependency>
+			</dependencies>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+				<property>
+					<name>spring.profiles.active</name>
+					<value>pp.ta.pubsub.kafka.consumer.apache.enabled</value>
+				</property>
+			</activation>
+		</profile>
 	</profiles>
 </project>
